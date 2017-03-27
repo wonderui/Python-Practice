@@ -21,4 +21,3 @@ print float(a1)/float(n)
 print float(a2)/float(n)
 print float(a3)/float(n)
 '''
-
