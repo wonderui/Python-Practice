@@ -1,7 +1,7 @@
 import random
 
-# 关于random库的小测试
-'''
+# test random
+
 a = [1, 2, 3]
 n = 1000
 a1 = 0
@@ -20,4 +20,8 @@ for i in range(n):
 print float(a1)/float(n)
 print float(a2)/float(n)
 print float(a3)/float(n)
+<<<<<<< Updated upstream
 '''
+=======
+
+>>>>>>> Stashed changes
