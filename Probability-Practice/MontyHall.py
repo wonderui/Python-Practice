@@ -25,4 +25,4 @@ print float(a3)/float(n)
 door = [1, 2, 3]
 carDoor = random.sample(door, 1)
 chooseDoor = random.sample(door, 1)
-
+if carDoor == chooseDoor:
