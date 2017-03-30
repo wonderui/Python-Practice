@@ -22,7 +22,22 @@ print float(a2)/float(n)
 print float(a3)/float(n)
 '''
 
-door = [1, 2, 3]
-carDoor = random.sample(door, 1)
-chooseDoor = random.sample(door, 1)
-print carDoor == chooseDoor
+
+def montyhall(Dselect, Dchange):
+    Dcar = random.randint(1, 3)
+    if Dcar == Dselect and Dchange == 0:
+        return 1
+    elif Dcar == Dselect and Dchange == 1:
+        return 0
+    elif Dcar != Dselect and Dchange == 1:
+        return 1
+    else:
+        return 0
+
+win = 0
+for i in range(100000):
+    ds = random.randint(1, 3)
+    dc = random.randint(0, 1)
+    win += montyhall(ds, dc)
+
+print(float(win)/100000)
