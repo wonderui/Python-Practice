@@ -121,17 +121,17 @@ def hangman(secretWord):
     lettersGuessed = []
     
     print('Welcome to the game Hangman!')
-    print('I am thinking of a word that is', secretWord,'.')
+    print('I am thinking of a word that is', len(secretWord),'letters long.')
     print('--------------------')
     
-    for i in range(chancesLeft):
-    	print('You have', chancesLeft, 'guesses left')
-    	print(getAvailableLetters(lettersGuessed))
-    	inputWord = input('Please guess a letter: ').lower()
-    	
-    	if ''.join(lettersGuessed) == secretWord:
-    		print('Congratulations, you won!')
+    while not isWordGuessed(secretWord, lettersGuessed):
+    	if chancesLeft == 0:
+    	print('--------------------')
     		break
+    	
+    	print('You have', chancesLeft, 'guesses left')
+    	print('Available Letters:', getAvailableLetters(lettersGuessed))
+    	inputWord = input('Please guess a letter: ').lower()
     	
     	if inputWord not in lettersGuessed:
     		lettersGuessed.append(inputWord)
@@ -144,7 +144,9 @@ def hangman(secretWord):
     		print("Oops! You've already guessed that letter:", getGuessedWord(secretWord, lettersGuessed))
     	print('--------------------')
     	
-    if ''.join(lettersGuessed) != secretWord:
+    if isWordGuessed(secretWord, lettersGuessed):
+    		print('Congratulations, you won!')
+    else:
     	print('Sorry, you ran out of guesses. The word was else.')
     	
 
