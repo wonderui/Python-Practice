@@ -226,27 +226,32 @@ class CiphertextMessage(Message):
         and the decrypted message text using that shift value
         '''
         word_list = load_words('words.txt')
-        text_list = self.message_text.split(' ')
-        print(text_list)
-        ans = ()
+        ans = []
         for s in range(26):
-        	for ltr in text_list:
+        	i = 26 - s
+        	decrypt_text = Message.apply_shift(self, i)
+        	# print('-------' + decrypt_text)
+        	decrypt_list = decrypt_text.split(' ')
+        	# print('-------', decrypt_list)
+        	for ltr in decrypt_list:
         		if is_word(word_list, ltr):
         			pass
         		else:
         			break
         	else:
-        		ans.append(s)
-        		decrypt_text = self.apply_shift(self.message_text, 26-s)
+        		ans.append(i)
         		ans.append(decrypt_text)
-        		return ans
+        		ans_tuple = tuple(ans)
+        		return ans_tuple
         
 #Example test case (PlaintextMessage)
-plaintext = PlaintextMessage('hello', 2)
-print('Expected Output: jgnnq')
+plaintext = PlaintextMessage('hello fuss', 2)
+print('Expected Output: jgnnq hwuu')
 print('Actual Output:', plaintext.get_message_text_encrypted())
+
+print('-----------------------')
     
 #Example test case (CiphertextMessage)
-ciphertext = CiphertextMessage('jgnnq')
-print('Expected Output:', (24, 'hello'))
+ciphertext = CiphertextMessage('jgnnq hwuu')
+print('Expected Output:', (24, 'hello fuss'))
 print('Actual Output:', ciphertext.decrypt_message())
