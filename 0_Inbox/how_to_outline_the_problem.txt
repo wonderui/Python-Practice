@@ -1,8 +1,0 @@
-how to outline the problem?
-
-1. understand
-    get to know what exactly the problem is
-2. specify
-    list the specs and attributes involved
-3. design
-    write the code
