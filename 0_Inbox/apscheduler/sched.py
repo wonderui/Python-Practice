@@ -1,7 +1,7 @@
 import datetime
 import pandas as pd
-#from apscheduler.schedulers.blocking import BlockingScheduler
-from apscheduler.schedulers.background import BackgroundScheduler
+from apscheduler.schedulers.blocking import BlockingScheduler
+#from apscheduler.schedulers.background import BackgroundScheduler
 
 list_1 = []
 def test_1():
@@ -10,6 +10,7 @@ def test_1():
     print('job executed!')
     print(str(datetime.datetime.now())[0:19] + '\n')
     
-sched = BackgroundScheduler()
+sched = BlockingScheduler()
+#sched = BackgroundScheduler()
 sched.add_job(test_1, 'interval', seconds=10)
 sched.start()
