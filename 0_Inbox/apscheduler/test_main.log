@@ -1,0 +1,119 @@
+Import complete!
+Grabbing start!
+Connection established!
+2018-02-06 00:06:05 Grabbing complete!
+Time used: 0.03664500000000004
+Grabbing start!
+Connection established!
+2018-02-06 00:06:10 Grabbing complete!
+Time used: 0.0010020000000001694
+Grabbing start!
+Connection established!
+2018-02-06 00:06:15 Grabbing complete!
+Time used: 0.001166999999999918
+Grabbing start!
+Connection established!
+2018-02-06 00:06:20 Grabbing complete!
+Time used: 0.001206999999999958
+Grabbing start!
+Connection established!
+2018-02-06 00:06:25 Grabbing complete!
+Time used: 0.0009870000000000712
+Grabbing start!
+Connection established!
+2018-02-06 00:06:30 Grabbing complete!
+Time used: 0.0010120000000000129
+Grabbing start!
+Connection established!
+2018-02-06 00:06:35 Grabbing complete!
+Time used: 0.0025420000000000442
+Grabbing start!
+Connection established!
+2018-02-06 00:06:40 Grabbing complete!
+Time used: 0.001068000000000069
+Grabbing start!
+Connection established!
+2018-02-06 00:06:45 Grabbing complete!
+Time used: 0.0015060000000000073
+Grabbing start!
+Connection established!
+2018-02-06 00:06:50 Grabbing complete!
+Time used: 0.0012939999999999063
+Grabbing start!
+Connection established!
+2018-02-06 00:06:55 Grabbing complete!
+Time used: 0.0006550000000000722
+Grabbing start!
+Connection established!
+2018-02-06 00:07:00 Grabbing complete!
+Time used: 0.0007650000000001267
+Grabbing start!
+Connection established!
+2018-02-06 00:07:05 Grabbing complete!
+Time used: 0.0008150000000000102
+Grabbing start!
+Connection established!
+2018-02-06 00:07:10 Grabbing complete!
+Time used: 0.0007930000000000437
+Grabbing start!
+Connection established!
+2018-02-06 00:07:15 Grabbing complete!
+Time used: 0.0008090000000000597
+Run time of job "grab_report_data (trigger: cron[hour='*', minute='*', second='*/5'], next run at: 2018-02-06 00:15:00 CST)" was missed by 0:00:01.365617
+Run time of job "grab_report_data (trigger: cron[hour='*', minute='*', second='*/5'], next run at: 2018-02-06 00:15:05 CST)" was missed by 0:00:01.579674
+Grabbing start!
+Connection established!
+2018-02-06 00:15:05 Grabbing complete!
+Time used: 0.0008099999999999774
+Grabbing start!
+Connection established!
+2018-02-06 00:15:10 Grabbing complete!
+Time used: 0.0007509999999999462
+Grabbing start!
+Connection established!
+2018-02-06 00:15:15 Grabbing complete!
+Time used: 0.0008340000000000014
+Grabbing start!
+Connection established!
+2018-02-06 00:15:20 Grabbing complete!
+Time used: 0.0009300000000000974
+Grabbing start!
+Connection established!
+2018-02-06 00:15:25 Grabbing complete!
+Time used: 0.0013609999999999456
+Grabbing start!
+Connection established!
+2018-02-06 00:15:30 Grabbing complete!
+Time used: 0.0010999999999998789
+Grabbing start!
+Connection established!
+2018-02-06 00:15:35 Grabbing complete!
+Time used: 0.0009349999999999081
+Grabbing start!
+Connection established!
+2018-02-06 00:15:40 Grabbing complete!
+Time used: 0.0009939999999999394
+Grabbing start!
+Connection established!
+2018-02-06 00:15:45 Grabbing complete!
+Time used: 0.0009660000000000224
+Grabbing start!
+Connection established!
+2018-02-06 00:15:50 Grabbing complete!
+Time used: 0.0008690000000000087
+Grabbing start!
+Connection established!
+2018-02-06 00:15:55 Grabbing complete!
+Time used: 0.0009619999999999074
+Grabbing start!
+Connection established!
+2018-02-06 00:16:00 Grabbing complete!
+Time used: 0.0010189999999998811
+Grabbing start!
+Connection established!
+2018-02-06 00:16:05 Grabbing complete!
+Time used: 0.0009729999999998906
+Grabbing start!
+Connection established!
+2018-02-06 00:16:10 Grabbing complete!
+Time used: 0.0011849999999999916

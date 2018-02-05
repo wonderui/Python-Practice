@@ -12,5 +12,5 @@ def test_1():
     
 sched = BlockingScheduler()
 #sched = BackgroundScheduler()
-sched.add_job(test_1, 'interval', seconds=10)
+sched.add_job(test_1, 'cron', second='0,5,10,15,20,25,30,40,50')
 sched.start()
