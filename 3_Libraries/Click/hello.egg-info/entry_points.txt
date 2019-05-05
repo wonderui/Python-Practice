@@ -1,0 +1,4 @@
+[console_scripts]
+digest = hello:digest
+goodbye = hello:goodbye
+
